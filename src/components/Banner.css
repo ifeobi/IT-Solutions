@@ -1,0 +1,40 @@
+img{
+	max-width:100%;
+}
+
+section.banner-section {
+    padding: 200px 200px;
+    text-align: center;
+    min-height: 100vh;    
+}
+
+section.banner-section h1 {
+    color: #FFF;
+    font-size: 80px;    
+    margin: 0px auto;
+}
+
+section.banner-section p {
+    font-family: 'Poppins', sans-serif;
+    font-size: calc(13px + 0.390800vw);
+    color: #FFF;
+    max-width: 400px;
+    margin: 30px auto 40px;
+}
+
+/* .btn-outline-light {
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 12px 12px;
+    border-radius: 0;
+} */
+
+
+.btn {
+    min-width: 173px;
+}
+
+.banner-text .btn {
+    margin: 0px 10px;
+}

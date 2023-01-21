@@ -1,0 +1,303 @@
+section.services-section {
+  background: #ebebeb;
+  text-align: center;
+  padding: 100px 0px 80px;
+}
+
+.section-title-main {
+  margin-bottom: 47px;
+}
+
+.services-box {
+  margin-bottom: 20px;
+}
+
+.services-media img {
+  width: 100%;
+}
+
+.services-info {
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.11);
+}
+
+.services-info h3 {
+  font-size: 27px;
+}
+
+h2.section-title {
+  font-size: 55px;
+}
+
+section.test-section {
+  padding: 100px 0px;
+  text-align: center;
+  background-size: cover;
+}
+
+.test-info img {
+  width: 50px !important;
+  height: 50px !important;
+  display: inline-block !important;
+}
+
+.test-box {
+  text-align: center;
+}
+
+.test-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.test-authot h4 {
+  font-size: 17px;
+  font-family: "Lato", sans-serif;
+  text-align: left;
+  margin: 0;
+}
+
+.test-authot h5 {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  line-height: 20px;
+  font-size: 14px;
+}
+
+.test-authot {
+  margin-left: 20px;
+}
+
+.test-box {
+  max-width: 700px;
+  margin: 0px auto;
+}
+
+.test-box p {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.owl-theme .owl-nav {
+  position: absolute;
+  top: 27%;
+  max-width: 900px;
+  margin: 0px auto;
+  left: 0;
+  right: 0;
+}
+
+.owl-theme .owl-nav [class*="owl-"] {
+  font-size: 68px !important;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+  position: absolute;
+  left: 0;
+}
+
+.owl-carousel .owl-nav button.owl-next {
+  position: absolute;
+  right: 0;
+}
+.owl-theme .owl-nav [class*="owl-"]:hover {
+  background: transparent !important;
+  color: #000 !important;
+}
+
+.logo-box {
+  margin: 30px 0px;
+}
+section.cta-section {
+  background: #ed1c24;
+  padding: 49px 0px 20px;
+  color: #fff;
+}
+
+section.cta-section .btn-primary {
+  background: #22282d !important;
+  border-color: #22282d !important;
+}
+
+footer {
+  padding: 100px 0px 70px;
+}
+
+.footer-col {
+  margin-bottom: 30px;
+}
+
+.footer-menu ul {
+  margin: 0px;
+  padding: 0px;
+}
+
+.footer-menu ul li {
+  display: block;
+}
+
+.footer-menu ul li a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer-col h3 {
+  position: relative;
+  margin-bottom: 31px;
+}
+
+.footer-col {
+}
+
+.footer-col h3:before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 2px;
+  background: #ed1c24;
+  bottom: -11px;
+}
+
+.copy-text {
+  margin-top: 30px;
+}
+
+@media (max-width: 991px) {
+  .top-header {
+    background: #252525;
+    position: relative;
+  }
+ 
+  section.banner-section{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+  }
+
+ 
+
+  section.banner-section p {        
+    line-height: 1.2;
+  }
+
+
+  .left-head h2 {
+    font-size: 30px;
+  }
+
+  section.features-section {
+    text-align: center;
+  }
+
+  .row.top-features {
+    top: 0;
+  }
+
+  section.features-section {
+    padding: 50px 0px 20px;
+  }
+
+  section.about-section {
+    padding: 50px 0px 20px;
+  }
+
+  section.services-section {
+    padding: 30px 0px 40px;
+  }
+
+  h2.section-title {
+    font-size: 30px;
+  }
+
+  .section-title-main {
+    margin-bottom: 27px;
+  }
+
+  section.team-section {
+    padding: 50px 0px 20px;
+  }
+
+  section.test-section {
+    padding: 50px 0px 30px;
+  }
+
+  .logo-box {
+    margin: 6px 0px;
+  }
+
+  section.cta-section {
+    text-align: center;
+  }
+
+  footer {
+    padding: 50px 0px 20px;
+  }
+
+  section.logo-section.text-center {
+    padding-bottom: 30px;
+  }
+  .top-contact {
+    text-align: center;
+  }
+
+  section.banner-section {
+    padding: 100px 0px;
+  }
+
+  
+  .banner-text .btn {
+    margin: 10px 10px;
+  }
+  .top-right-info .btn {
+    font-size: 11px;
+  }
+  .top-right-info {
+    justify-content: center;
+    margin-top: 12px;
+    margin-bottom: 10px;
+  }
+
+  .navbar-collapse {
+    background: #000;
+    padding: 30px;
+  }
+
+  .navbar-light .navbar-toggler {
+    background: #fff;
+  }
+}
+
+@media(max-width:767px) {
+  .top-contact {
+    display: none;
+  }
+
+  .banner-text .h1 {
+    font-size: 48px;    
+  }
+ 
+  .banner-text .p {
+    line-height: 1.6;
+    font-size: 1.2rem;
+  }  
+
+  .top-social {
+    display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .banner-section {
+    background: #1b2030 50% 0 no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;    
+    background-size: cover;
+  }
+
+ 
+}

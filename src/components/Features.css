@@ -1,0 +1,24 @@
+section.features-section {
+    background: #252525;
+    padding-bottom: 100px;
+}
+
+.features-box {
+    background: #FFF;
+    padding: 30px;
+    text-align: center;
+	margin-bottom: 30px;
+}
+
+.left-head h2 {
+    color: #FFF;
+    font-size: 60px;
+}
+
+.right-text {
+    color: #FFF;
+}
+.row.top-features {
+    top: -61px;
+    position: relative;
+}
